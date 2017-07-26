@@ -1,0 +1,28 @@
+{
+  "name": "fcc-api-image",
+  "version": "1.0.0",
+  "description": "Freecodecamp Backend Challenge - API Microservice - Image Abstraction layer",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon ./start.js",
+    "start": "nf start"
+  },
+  "author": "Michael Garstka",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.4",
+    "nodemon": "^1.11.0"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "devDependencies": {
+    "foreman": "^2.0.0",
+    "nodemon": "^1.11.0"
+  }
+}
