@@ -8,7 +8,7 @@ This API Image search Abstraction layer microservice does the following:
 3.I can get a list of the most recently submitted search strings in JSON.
 
 ### Example Image Search:
-https://api-image-fcc.herokuapp.com/api/imagesearch/[YOUR SEARCH TERMSl?offset=[YOUR CHOSEN OFFSET]
+https://api-image-fcc.herokuapp.com/api/imagesearch/<YOUR SEARCH TERMS>?offset=<YOUR CHOSEN OFFSET>
 
 ### List previous searches:
 https://api-image-fcc.herokuapp.com/api/latest/imagesearch/
